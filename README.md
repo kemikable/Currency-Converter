@@ -1,5 +1,5 @@
 # Currency-Converter
-##Модуль 3. "Макет конвертера валют" 
+## Модуль 3. "Макет конвертера валют" 
 
 Создайте онлайн-конвертер валют, получая последние данные из открытого API:
 https://exchangerate.host/#/#docs 
@@ -13,7 +13,7 @@ https://api.exchangerate.host/latest?base=USD&symbols=RUB
 
 Случай ошибки загрузки должен быть обработан.
 
-####Требования:
+#### Требования:
 
  * Интерфейс должен соответствовать макету:
 https://www.figma.com/file/u6vMK15L7Gkkolsq9ShNPe/M3-Currency-Converter?node-id=0%3A1&t=c7OYDicD7VqAc6TF-1.
