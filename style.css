@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
+/* body with margin/padding, font family */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    font-size: 100%
 }
 
+
+/* main function for UL */
 ul {
     list-style-type: none;
     font-weight: 500;
+    font-size: 90%;
     background-color: #F5F5F6;
     height: 10vh;
     padding-top: 3vh;
@@ -18,14 +22,17 @@ ul {
     display: flex;
     justify-content: space-around;
     height: 100%;
+    align-items: center;
 
 
 }
 
+/* Color for BANK */
 li:first-child {
     color: black;
 }
 
+/* Color for other LI items */
 ul li:not(:nth-child(1)):not(:nth-child(2)) {
     color: #959BA4
 }
@@ -40,10 +47,44 @@ ul li:not(:nth-child(1)):hover {
     cursor: pointer;
 }
 
+/* function for LOG IN */
 .backgrnd-wht {
-
+    display: inline-block;
     background-color: white;
     border-radius: 5px;
-    /* width: 5vw; */
-    /* height: 4vh; */
+    padding: 10px;
+}
+
+h1 {
+    font-size: 250%;
+    padding-left: 17%;
+    padding-top: 2%;
+}
+
+.change {
+    display: flex;
+    gap: 50%;
+    margin-left: 17%;
+}
+
+.have {
+    padding-left: 17%;
+
+}
+
+.block {
+    border: 1px solid black;
+
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+.divider {
+    border-left: 1px solid black;
+    width: 5px;
+    height: 100%;
+}
+
+.currency {
+    padding: 5px;
 }
