@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* Убираем стрелки вверх/вниз в INPUT NUMBER */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+
+}
+
+
 /* body with margin/padding, font family */
 body {
     font-family: 'Roboto', sans-serif;
@@ -76,6 +85,7 @@ h1 {
 
 span {
     color: #E5E5E5;
+    cursor: pointer;
 
 }
 
@@ -99,16 +109,54 @@ span {
     background-color: #E5E5E5;
 }
 
-.currency {
-    padding: 5px;
-}
+/* .currency {
+    padding: -105px;
+} */
 
 .currency:hover {
     display: block;
     background-color: #833AE0;
-    width: 3 0%;
+
+
+
+
 }
 
-.rub {
+span:hover {
     color: white;
+}
+
+.cost {
+    margin-top: 3%;
+    display: flex;
+    gap: 33%;
+    margin-left: 17%;
+
+}
+
+.cost>.have-how>p,
+.cost>.get-how>p {
+    padding-left: 5%;
+    color: #E5E5E5;
+    margin-top: 20%;
+}
+
+input[type="number"] {
+    border: none;
+    height: 7vh;
+    font-size: 45px;
+    width: 85%;
+}
+
+.have-how,
+.get-how {
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    width: 19.5%;
+}
+
+.have-cost,
+.get-cost {
+    margin-top: 5%;
+    margin-left: 5%;
 }
