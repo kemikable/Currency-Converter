@@ -65,26 +65,50 @@ h1 {
     display: flex;
     gap: 50%;
     margin-left: 17%;
+    color: #E5E5E5;
 }
 
-.have {
-    padding-left: 17%;
+.currency-flex {
+    display: flex;
+    gap: 10.5%;
 
 }
 
-.block {
-    border: 1px solid black;
+span {
+    color: #E5E5E5;
 
+}
+
+.currency-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 10px;
-    border-collapse: collapse;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    width: 15%;
+    margin-left: 17%;
 }
 
 .divider {
-    border-left: 1px solid black;
-    width: 5px;
-    height: 100%;
+    width: 1px;
+    margin-top: -4%;
+    margin-bottom: -4%;
+
+    height: 4vh;
+    background-color: #E5E5E5;
 }
 
 .currency {
     padding: 5px;
+}
+
+.currency:hover {
+    display: block;
+    background-color: #833AE0;
+    width: 3 0%;
+}
+
+.rub {
+    color: white;
 }
