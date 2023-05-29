@@ -141,7 +141,7 @@ span:hover {
     margin-top: 20%;
 }
 
-input[type="number"] {
+input {
     border: none;
     height: 7vh;
     font-size: 45px;
