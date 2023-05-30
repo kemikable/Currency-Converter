@@ -113,9 +113,7 @@ span {
     background-color: #E5E5E5;
 }
 
-/* .currency {
-    padding: -105px;
-} */
+
 
 .currency:hover {
     display: block;
@@ -148,7 +146,7 @@ span:hover {
 input {
     border: none;
     height: 7vh;
-    font-size: 45px;
+    font-size: 250%;
     width: 20vw;
     font-weight: 700;
 }
@@ -164,4 +162,49 @@ input {
 .get-cost {
     margin-top: 5%;
     margin-left: 5%;
+}
+
+@media (max-width: 1000px) {
+
+    body {
+        font-size: 70%;
+    }
+
+    input {
+        font-size: 200%;
+        width: 19vw;
+    }
+
+    .have-how,
+    .get-how {
+
+        width: 23vw;
+    }
+
+    h1 {
+        font-size: 200%;
+
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 50%;
+    }
+
+    .have-how,
+    .get-how {
+
+        width: 24vw;
+    }
+
+    .change {
+        gap: 45%;
+
+    }
+
+    img {
+
+        width: 10%;
+    }
 }
