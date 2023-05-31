@@ -185,15 +185,17 @@ function initializeCurrencyConverter() {
     usdCurrencyRight.classList.add('active');
     usdCurrencyRight.style.backgroundColor = '#833AE0';
 
-    const amountInputs = document.querySelectorAll('.have-cost, .get-cost');
-    amountInputs.forEach((input) => {
-        input.value = '';
-    });
+    const baseAmountInput = document.querySelector('.have-cost');
+    baseAmountInput.value = '1';
+
+    const targetAmountInput = document.querySelector('.get-cost');
+    targetAmountInput.value = '';
 
     handleCurrencySelection();
     handleAmountChange();
     handleCurrencyChange();
     updateExchangeRate();
 }
+
 
 document.addEventListener('DOMContentLoaded', initializeCurrencyConverter);
