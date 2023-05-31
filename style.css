@@ -69,6 +69,14 @@ h1 {
     padding-top: 2%;
 }
 
+h2 {
+    display: none;
+    text-decoration: underline;
+    color: RED;
+    padding-left: 17%;
+    padding-top: 2%;
+}
+
 .change {
     display: flex;
     gap: 43%;
@@ -89,7 +97,18 @@ img {
 span {
     color: #E5E5E5;
     cursor: pointer;
+    /* font-size: 17px; */
+}
 
+.currency {
+    display: inline-block;
+    padding: 3% 3%;
+
+    background-color: #ec8f8f;
+
+    color: #ffffff;
+
+    border-radius: 5px;
 
 }
 
@@ -101,6 +120,7 @@ span {
     border: 1px solid #E5E5E5;
     border-radius: 5px;
     width: 20%;
+    gap: 1%;
     margin-left: 17%;
 }
 
@@ -164,11 +184,27 @@ input {
     margin-left: 5%;
 }
 
+
+.currency-dropdown {
+    background-color: #ec8f8f;
+    color: white;
+    padding: 3% 1%;
+    border-radius: 5px;
+}
+
 @media (max-width: 1000px) {
 
     body {
         font-size: 70%;
     }
+
+    /* 
+    .currency {
+
+        padding: 0.5% 0.5%;
+
+
+    } */
 
     input {
         font-size: 200%;
@@ -181,6 +217,10 @@ input {
         width: 23vw;
     }
 
+    span {
+        font-size: 11px;
+    }
+
     h1 {
         font-size: 200%;
 
@@ -190,6 +230,13 @@ input {
 @media (max-width: 600px) {
     body {
         font-size: 50%;
+    }
+
+    .currency {
+
+        padding: 0.1% 0.1%;
+
+
     }
 
     .have-how,
