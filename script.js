@@ -127,7 +127,7 @@ async function updateExchangeRate() {
             const newTargetAmount = (baseAmount * baseToTargetRate).toFixed(2);
             targetAmountInput.value = newTargetAmount;
         } else if (targetAmountInput === document.activeElement) {
-            const newBaseAmount = (targetAmount / targetToBaseRate).toFixed(2);
+            const newBaseAmount = (targetAmount * targetToBaseRate).toFixed(2);
             baseAmountInput.value = newBaseAmount;
         } else {
             const newTargetAmount = (baseAmount * baseToTargetRate).toFixed(2);
